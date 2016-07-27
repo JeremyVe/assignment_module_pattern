@@ -1,0 +1,14 @@
+
+.mole {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-left: 10px;
+	border: 1px solid #1d508d;
+	border-radius: 10px;
+}
+
+.show-mole {
+	background-color: #288ad6;
+	border-radius: 10px;
+}

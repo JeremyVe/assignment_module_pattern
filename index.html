@@ -1,12 +1,26 @@
 <html>
 <head>
-	<title>Module Everywhere</title>
+	<title>Whack-a-mole</title>
 
 	<!-- <script type="text/javascript" src= "https://code.jquery.com/jquery-3.1.0.min.js"></script> -->
 
 	<script type="text/javascript" src= "jquery-3.0.0.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script type="text/javascript" src= "mole.js"></script>
+	<script type="text/javascript" src= "game.js"></script>
+
 </head>
 <body>
+	<h3>Score: <span class= "score">0</span></h3>
+	<div id ="game"></div>
+
+	<script>
+		$(document).ready(function() {
+			APP.Game.init();
+		})
+	</script>
 
 </body>
 </html>
